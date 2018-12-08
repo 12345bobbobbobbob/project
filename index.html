@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var val = 0;
+var j = 0;
+
+function callback() {
+	console.log(val);
+}
+
+
+setTimeout(callback, 10);
+
+
+for(j = 0; j < 10500000000; j++) {
+	val = val + j;
+}
+</script>
+</head>
+<body id ="page">
+</body>
+</html>
